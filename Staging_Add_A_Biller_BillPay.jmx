@@ -42,7 +42,7 @@
       <hashTree/>
       <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
         <collectionProp name="CookieManager.cookies"/>
-        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <boolProp name="CookieManager.clearEachIteration">true</boolProp>
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
@@ -75,7 +75,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -121,7 +121,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">accountsstaging2.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/main/GetConfigurationSettings</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -166,7 +166,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">accountsstaging2.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/main/GetConfigurationSettings</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -228,7 +228,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">accountsstaging2.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/Main/Login</stringProp>
               <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -306,7 +306,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">//connect/oauth</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -384,7 +384,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">//connect/oauth</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -442,7 +442,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/DashboardV2</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -505,7 +505,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Home/JSResource/</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -1692,7 +1692,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -1760,7 +1760,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/GetBlueJayServices</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2316,7 +2316,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/CashScreen</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2394,7 +2394,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2656,7 +2656,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/employee/BillersMobile</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2705,7 +2705,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/employee/BillerDetailsMobile</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2783,7 +2783,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/GetAllBillersBasedOnGeoLocation</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -2836,7 +2836,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Content/Images/search.svg</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -3103,7 +3103,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/GetBillers</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -3171,7 +3171,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/GetBillers</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -3253,7 +3253,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/employee/BillerAccountDetailMobile</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -3449,7 +3449,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JsonService/AddUpdateBiller</stringProp>
               <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -3563,7 +3563,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/CashScreen</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4047,7 +4047,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/BillPaymentCalenderMobile</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4125,7 +4125,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4312,7 +4312,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Content/Images/BlueJay/cross-icon-grey.svg</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4386,7 +4386,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4474,7 +4474,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4675,7 +4675,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/InsertUpdateCartSessionDetailMobile</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4724,7 +4724,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Content/BlueJay/PayBills-colored.svg</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4769,7 +4769,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Content/Images/cross-icon-grey.svg</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -4983,7 +4983,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5043,7 +5043,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/JSONService/PerformTransaction</stringProp>
               <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -5106,7 +5106,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/Employee/DashboardV2</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5184,7 +5184,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/en/JSONService/RecordAppBit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5243,7 +5243,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Common/Logout</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5301,7 +5301,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">mstaging2019.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/Common/EndDeviceSession</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5351,7 +5351,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">accountsstaging2.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/main/GetConfigurationSettings</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -5396,7 +5396,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">accountsstaging2.mymonow.com</stringProp>
               <stringProp name="HTTPSampler.port">443</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/main/GetConfigurationSettings</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
